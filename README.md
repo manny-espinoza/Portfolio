@@ -1,4 +1,4 @@
 # Portfolio
-My Portfolio, built using Next.js, Reactstrap/Bootstrap, FramerMotion, and TailwindCSS
+My Portfolio, built using Next.js, TailwindCSS, Reactstrap/Bootstrap, and FramerMotion.
 
-Work in progress, as I am still working out some kinks with configuring framer motion to create a more dynamic website for myself, but here it is. Check out my work!
+This is my first project fully incorporating all of these technologies, and I'm proud to have this on display for employers, recruiters, and friends to look at! Configuring framer motion to create a more dynamic and modern website was my biggest goal here, and I'd appreciate any feedback/suggestions on ways to improve :)
