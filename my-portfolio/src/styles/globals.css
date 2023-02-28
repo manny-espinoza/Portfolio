@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .welcomeButtons {
+    @apply px-2 py-1 border border-[#ede1d5] rounded-full uppercase text-xs tracking-widest text-[#ede1d5] transition-all hover:border-[#663825] hover:text-[#663825];
+  }
+
+  .contactInput {
+    @apply outline-none bg-[#ffffff]/80 rounded-sm border-b px-6 py-4 border-[#000000]/40 text-black placeholder-black/40 transition-all focus:border-black hover:border-slate-600;
+  }
+}
