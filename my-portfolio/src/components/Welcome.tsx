@@ -17,7 +17,7 @@ export default function Welcome({}: Props) {
   });
 
   return (
-    <div className="h-screen flex flex-col space-y-12 px-8 items-center justify-center text-center overflow-hidden">
+    <div className="h-screen flex flex-col items-center justify-center text-center overflow-hidden space-y-12 px-8">
       <h1 className="text-4xl uppercase font-thin tracking-[7px] pt-14 md:text-5xl md:tracking-[12px] lg:text-6xl lg:tracking-[20px] 2xl:text-7xl 2xl:tracking-[30px]">
         Manuel Espinoza
       </h1>
@@ -32,7 +32,7 @@ export default function Welcome({}: Props) {
           <br />
           Engineer
         </h2>
-        <h2 className="text-xl md:text-3xl lg:text-4xl font-semibold px-10 pt-10">
+        <h2 className="font-semibold px-10 pt-10 text-xl md:text-3xl lg:text-4xl">
           <span className="mr-1">{text}</span>
           <Cursor cursorColor="#663825" />
         </h2>

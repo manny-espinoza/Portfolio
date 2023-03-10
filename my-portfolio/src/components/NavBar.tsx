@@ -7,7 +7,7 @@ type Props = {};
 
 export default function NavBar({}: Props) {
   return (
-    <div className="bg-[#804f3b] sticky top-0 flex items-center justify-between px-4 md:px-24 lg:px-36 xl:px-48 2xl:px-60 h-20 max-w-full mx-auto z-20">
+    <div className="bg-[#804f3b] sticky top-0 flex items-center justify-between h-20 max-w-full mx-auto z-20 px-4 md:px-24 lg:px-36 xl:px-48 2xl:px-60">
       <motion.div
         initial={{
           x: -500,
@@ -22,7 +22,7 @@ export default function NavBar({}: Props) {
         transition={{
           duration: 1,
         }}
-        className="flex flex-row"
+        className="flex flex-row gap-4"
       >
         <a href="/" className="text-[#ede1d5] hover:text-[#663825]">
           <IoMdHome />
@@ -46,6 +46,9 @@ export default function NavBar({}: Props) {
       >
         <Link href="#about">
           <button className="welcomeButtons">About</button>
+        </Link>
+        <Link href="#experience">
+          <button className="welcomeButtons">Experience</button>
         </Link>
         <Link href="#projects">
           <button className="welcomeButtons">Projects</button>
