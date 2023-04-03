@@ -1,2 +1,2 @@
 # Portfolio
-My Portfolio, built using NextJS, TailwindCSS, and Framer Motion.
+My Portfolio, built using Next.js, TailwindCSS, and Framer Motion.
