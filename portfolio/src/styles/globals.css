@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background: url(/site-bg.jpg) center no-repeat;
+  background-size: 4000px;
+}
