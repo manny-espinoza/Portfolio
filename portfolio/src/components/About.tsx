@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function About() {
-  return <div>About</div>;
+  return (
+    <div className="h-screen items-center" id="about">
+      About
+    </div>
+  );
 }
