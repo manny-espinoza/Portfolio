@@ -1,5 +1,9 @@
 import React from "react";
 
-export default function Experience() {
-  return <div>Experience</div>;
+export default function About() {
+  return (
+    <div className="h-screen items-center" id="experience">
+      Experience
+    </div>
+  );
 }

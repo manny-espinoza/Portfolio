@@ -6,3 +6,14 @@ html {
   background: url(/site-bg.jpg) center no-repeat;
   background-size: 4000px;
 }
+
+.gradient,
+.active {
+  background: linear-gradient(90deg, #32b4ff 0%, #b4b4b4 50%, #000000 100%);
+}
+
+.active {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 100%;
+}
