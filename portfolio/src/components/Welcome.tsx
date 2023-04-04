@@ -15,7 +15,7 @@ export default function Welcome() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true }}
-        className="text-[40px] uppercase font-light tracking-[10px] text-center leading-[1] pt-[36px]"
+        className="text-[30px] md:text-[50px] uppercase font-light tracking-[10px] text-center leading-[1] pt-[60px] lg:pt-[42px]"
       >
         Manuel Espinoza
       </motion.h1>
