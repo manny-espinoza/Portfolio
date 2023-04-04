@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="h-screen items-center" id="contact">
+    <div className="h-screen mx-auto p-8" id="contact">
       Contact
     </div>
   );

@@ -7,6 +7,14 @@ html {
   background-size: 4000px;
 }
 
+.btn {
+  background: linear-gradient(90deg, #000000 0%, #b4b4b4 50%, #32b4ff 100%);
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #32b4ff 0%, #b4b4b4 50%, #000000 100%);
+}
+
 .gradient,
 .active {
   background: linear-gradient(90deg, #32b4ff 0%, #b4b4b4 50%, #000000 100%);
