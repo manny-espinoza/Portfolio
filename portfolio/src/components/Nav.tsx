@@ -13,7 +13,6 @@ export default function Nav() {
             activeClass="active"
             smooth={true}
             spy={true}
-            offset={-200}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BiHomeAlt />
@@ -23,7 +22,6 @@ export default function Nav() {
             activeClass="active"
             smooth={true}
             spy={true}
-            offset={-200}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BiUser />
@@ -33,7 +31,6 @@ export default function Nav() {
             activeClass="active"
             smooth={true}
             spy={true}
-            offset={-200}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsClipboardData />
@@ -43,7 +40,6 @@ export default function Nav() {
             activeClass="active"
             smooth={true}
             spy={true}
-            offset={-200}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsBriefcase />
@@ -53,7 +49,6 @@ export default function Nav() {
             activeClass="active"
             smooth={true}
             spy={true}
-            offset={-200}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsTelephone />

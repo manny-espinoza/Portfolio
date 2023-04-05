@@ -97,10 +97,16 @@ export default function About() {
           </a>
         </motion.div>
       </div>
-      <div className="hidden lg:flex w-[400px] h-[400px] lg:mt-[162px]">
+      <motion.div
+        variants={fadeIn("down", 0.5)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: true }}
+        className="hidden lg:flex w-[400px] h-[400px] lg:mt-[162px]"
+      >
         {/*Image container*/}
         <img src="/favicon.ico" alt="Bitmoji" className="rounded-[50px]" />
-      </div>
+      </motion.div>
     </div>
   );
 }
