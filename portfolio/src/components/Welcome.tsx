@@ -4,107 +4,103 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
-export default function Welcome() {
+export default function About() {
   return (
     <div
-      className="h-screen mx-auto p-8 space-y-8 flex flex-col items-center"
+      className="h-screen mx-auto p-8 flex flex-col lg:flex-row lg:justify-evenly"
       id="welcome"
     >
-      <motion.h1
-        variants={fadeIn("up", 0.3)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: true }}
-        className="text-[30px] md:text-[50px] uppercase font-light tracking-[10px] text-center leading-[1] pt-[60px] lg:pt-[42px]"
-      >
-        Manuel Espinoza
-      </motion.h1>
-      <motion.img
-        variants={fadeIn("up", 0.4)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: true }}
-        src="favicon.ico"
-        alt="Profile Picture"
-      />
-      <motion.h3
-        variants={fadeIn("up", 0.5)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: true }}
-        className="text-[40px] uppercase font-semibold tracking-[10px] text-center leading-[1]"
-      >
-        Software
-        <br />
-        Engineer
-      </motion.h3>
-      <motion.div
-        variants={fadeIn("up", 0.6)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: true }}
-      >
-        <TypeAnimation
-          sequence={[
-            "Full Stack Web Developer",
-            1500,
-            "Video Game Lover",
-            1500,
-            "Keyboard Enthusiast",
-            1500,
-            "Passionate Snowboarder",
-            1500,
-          ]}
-          speed={50}
-          repeat={Infinity}
-          className="text-2xl"
-        />
-      </motion.div>
-      <motion.p
-        variants={fadeIn("up", 0.7)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: true }}
-        className="text-center max-w-sm"
-      >
-        Welcome to my portfolio! I like building pretty and easy to use websites
-        with my keyboard. Always striving for growth and improvement.
-      </motion.p>
-      <motion.div
-        variants={fadeIn("up", 0.8)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: true }}
-        className="flex items-center justify-center space-x-20"
-      >
-        <button className="bg-white/20 px-4 py-1 rounded-full hover:opacity-70">
-          <a
-            href="https://docs.google.com/document/d/1zvDdNeG5s2LpjWiq9mCnsOuhVAMO_rMt/edit?usp=sharing&ouid=108805970889923187124&rtpof=true&sd=true"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Resume
-          </a>
-        </button>
-        <button className="text-3xl hover:opacity-70">
+      <div className="text-center lg:text-left space-y-16 xl:space-y-12 mt-[91px] lg:mt-[80px] xl:mt-[38px] flex flex-col">
+        {/*Contains everything but image*/}
+        <motion.h1
+          variants={fadeIn("up", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true }}
+          className="text-[46px] xl:text-[70px] uppercase font-light tracking-[2px]"
+        >
+          Manuel Espinoza
+        </motion.h1>
+        <motion.h3
+          variants={fadeIn("up", 0.4)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true }}
+          className="text-[46px] xl:text-[70px] uppercase font-semibold tracking-[2px] leading-[0.8]"
+        >
+          Software
+          <br />
+          Engineer
+        </motion.h3>
+        <motion.div
+          variants={fadeIn("up", 0.5)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true }}
+          className="text-[30px] xl:text-[50px] font-light"
+        >
+          <TypeAnimation
+            sequence={[
+              "Full Stack Web Developer",
+              1500,
+              "Video Game Lover",
+              1500,
+              "Keyboard Enthusiast",
+              1500,
+              "Passionate Snowboarder",
+              1500,
+            ]}
+            speed={50}
+            repeat={Infinity}
+          />
+        </motion.div>
+        <motion.p
+          variants={fadeIn("up", 0.6)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true }}
+          className="max-w-[350px] mx-auto font-light lg:mx-0 xl:text-[20px] xl:max-w-[425px]"
+        >
+          Welcome to my portfolio! I like building pretty and easy to use
+          websites with my keyboard. Always striving for growth and improvement.
+        </motion.p>
+        <motion.div
+          variants={fadeIn("up", 0.7)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true }}
+          className="flex flex-row items-center justify-center lg:justify-start space-x-16"
+        >
+          {/*Button container*/}
+          <button>
+            <a
+              href="https://docs.google.com/document/d/1zvDdNeG5s2LpjWiq9mCnsOuhVAMO_rMt/edit?usp=sharing&ouid=108805970889923187124&rtpof=true&sd=true"
+              target="_blank"
+              className="bg-blue-950 text-white px-4 py-1 rounded-full xl:text-[26px] opacity-70 hover:opacity-90"
+            >
+              Resume
+            </a>
+          </button>
           <a
             href="https://github.com/manny-espinoza"
             target="_blank"
-            rel="noreferrer"
+            className="text-[29px] xl:text-[45px] opacity-70 hover:opacity-90"
           >
             <FaGithub />
           </a>
-        </button>
-        <button className="text-3xl hover:opacity-70">
           <a
             href="https://www.linkedin.com/in/manny-espinoza-dev/"
             target="_blank"
-            rel="noreferrer"
+            className="text-[29px] xl:text-[45px] opacity-70 hover:opacity-90"
           >
             <FaLinkedin />
           </a>
-        </button>
-      </motion.div>
+        </motion.div>
+      </div>
+      <div className="hidden lg:flex w-[400px] h-[400px] lg:mt-[162px]">
+        {/*Image container*/}
+        <img src="/favicon.ico" alt="Bitmoji" className="rounded-[50px]" />
+      </div>
     </div>
   );
 }
