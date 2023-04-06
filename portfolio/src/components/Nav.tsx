@@ -15,7 +15,7 @@ export default function Nav() {
       className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50"
     >
       <div className="container mx-auto">
-        <div className="bg-black/20 h-[96px] backdrop-blur-2xl rounded-full min-w-[360px] max-w-[460px] mx-auto px-5 flex items-center justify-between text-white/50 text-2xl">
+        <div className="bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex items-center justify-between text-white/50 text-2xl">
           <Link
             to="welcome"
             activeClass="active"

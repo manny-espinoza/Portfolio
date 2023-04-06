@@ -1,6 +1,8 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { useForm, SubmitHandler } from "react-hook-form";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
 
 type Inputs = {
   name: string;
@@ -17,66 +19,111 @@ export default function About() {
   };
 
   return (
-    <div className="h-screen mx-auto p-8 space-y-4 text-center" id="contact">
-      <h1 className="text-[46px] uppercase font-light tracking-[2px]">
-        Contact Me
-      </h1>
-      <h3 className="text-2xl font-semibold">Let's get in touch.</h3>
-      <div className="flex flex-row items-center justify-center space-x-4">
-        <a href="https://github.com/manny-espinoza" target="_blank">
-          <FaGithub className="animate-pulse w-8 h-8" />
-        </a>
-        <p>github.com/manny-espinoza</p>
-      </div>
-      <div className="flex flex-row items-center justify-center space-x-4">
-        <a
-          href="https://www.linkedin.com/in/manny-espinoza-dev/"
-          target="_blank"
+    <div
+      className="h-screen mx-auto p-8 space-y-4 text-center lg:text-left flex flex-col lg:flex-row lg:justify-evenly"
+      id="contact"
+    >
+      <div className="space-y-4 lg:space-y-16">
+        <motion.h1
+          variants={fadeIn("right", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true }}
+          className="text-[46px] lg:text-[60px] uppercase font-light tracking-[2px]"
         >
-          <FaLinkedin className="animate-pulse w-8 h-8" />
-        </a>
-        <p>linkedin.com/in/manny-espinoza-dev/</p>
+          Contact Me
+        </motion.h1>
+        <motion.h3
+          variants={fadeIn("right", 0.4)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true }}
+          className="text-2xl lg:text-[40px] font-semibold lg:pt-[50px]"
+        >
+          Let's get in touch.
+        </motion.h3>
+        <motion.div
+          variants={fadeIn("right", 0.5)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true }}
+          className="flex flex-row items-center justify-center lg:justify-start space-x-4"
+        >
+          <a href="https://github.com/manny-espinoza" target="_blank">
+            <FaGithub className="animate-pulse w-8 h-8 lg:w-12 lg:h-12" />
+          </a>
+          <p className="lg:text-2xl lg:font-light">github.com/manny-espinoza</p>
+        </motion.div>
+        <motion.div
+          variants={fadeIn("right", 0.6)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true }}
+          className="flex flex-row items-center justify-center lg:justify-start space-x-4"
+        >
+          <a
+            href="https://www.linkedin.com/in/manny-espinoza-dev/"
+            target="_blank"
+          >
+            <FaLinkedin className="animate-pulse w-8 h-8 lg:w-12 lg:h-12" />
+          </a>
+          <p className="lg:text-2xl lg:font-light">
+            linkedin.com/in/manny-espinoza-dev/
+          </p>
+        </motion.div>
+        <motion.div
+          variants={fadeIn("right", 0.7)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true }}
+          className="flex flex-row items-center justify-center lg:justify-start space-x-4"
+        >
+          <FaEnvelope className="animate-pulse w-8 h-8 lg:w-12 lg:h-12" />
+          <p className="lg:text-2xl lg:font-light">
+            mannyespinoza123@yahoo.com
+          </p>
+        </motion.div>
       </div>
-      <div className="flex flex-row items-center justify-center space-x-4">
-        <FaEnvelope className="animate-pulse w-8 h-8" />
-        <p>mannyespinoza123@yahoo.com</p>
-      </div>
-      <form
+      <motion.form
+        variants={fadeIn("left", 0.8)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: true }}
         onSubmit={handleSubmit(onSubmit)}
-        className="flex flex-col text-black pt-4 lg:pt-2"
+        className="flex flex-col text-black pt-4 lg:pt-[35px]"
       >
         <div>
           <input
             {...register("name")}
             type="text"
             placeholder="Name"
-            className="text-left text-[14px] p-2 w-[200px] h-[40px] border-l-2 border-t-2 border-b-[1px] border-black rounded-tl-lg"
+            className="text-left text-[14px] lg:text-[16px] p-2 w-[200px] h-[40px] lg:w-[225px] lg:h-[50px] border-l-2 border-t-2 border-b-[1px] border-black rounded-tl-lg"
           />
           <input
             {...register("email")}
             type="email"
             placeholder="Email"
-            className="text-left text-[14px] p-2 w-[200px] h-[40px] border-t-2 border-r-2 border-b-[1px] border-black rounded-tr-lg"
+            className="text-left text-[14px] lg:text-[16px] p-2 w-[200px] h-[40px] lg:w-[225px] lg:h-[50px] border-t-2 border-r-2 border-b-[1px] border-black rounded-tr-lg"
           />
         </div>
         <input
           {...register("subject")}
           type="text"
           placeholder="Subject"
-          className="w-[400px] h-[40px] text-left text-[14px] p-2 mx-auto border-l-2 border-r-2 border-b-[1px] border-black"
+          className="w-[400px] h-[40px] lg:w-[450px] lg:h-[50px] text-left text-[14px] lg:text-[16px] p-2 mx-auto border-l-2 border-r-2 border-b-[1px] border-black"
         />
         <textarea
           {...register("message")}
           placeholder="Message"
-          className="w-[400px] h-[300px] text-left text-[14px] p-2 mx-auto resize-none border-l-2 border-r-2 border-b-2 border-black rounded-b-lg"
+          className="w-[400px] h-[300px] lg:w-[450px] lg:h-[450px] text-left text-[14px] lg:text-[16px] p-2 mx-auto resize-none border-l-2 border-r-2 border-b-2 border-black rounded-b-lg"
         ></textarea>
         <button
           type="submit"
-          className="bg-sky-950 text-white opacity-80 hover:opacity-100 text-[24px] uppercase font-semibold mx-auto px-4 py-1 rounded-full mt-4"
+          className="bg-sky-950 text-white opacity-80 hover:opacity-100 text-[24px] uppercase font-semibold mx-auto px-4 py-1 rounded-full mt-4 lg:mt-12"
         >
           Submit
         </button>
-      </form>
+      </motion.form>
     </div>
   );
 }
