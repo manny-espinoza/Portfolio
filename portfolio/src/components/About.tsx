@@ -9,7 +9,7 @@ export default function About() {
       id="about"
     >
       <motion.h1
-        variants={fadeIn("left", 0.8)}
+        variants={fadeIn("left", 0.5)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true }}
@@ -19,7 +19,7 @@ export default function About() {
       </motion.h1>
       <div className="flex flex-col items-center space-y-8 md:space-y-12 lg:flex-row lg:justify-around xl:justify-evenly">
         <motion.img
-          variants={fadeIn("right", 1.0)}
+          variants={fadeIn("right", 0.5)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true }}
@@ -28,7 +28,7 @@ export default function About() {
           className="rounded-full mb-4 lg:rounded-[50px] w-[300px] h-[300px] lg:w-[350px] lg:h-[350px] xl:w-[400px] xl:h-[400px] lg:mt-[80px] xl:mt-[46px]"
         />
         <motion.p
-          variants={fadeIn("left", 1.0)}
+          variants={fadeIn("left", 0.5)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true }}
