@@ -21,7 +21,7 @@ export default function About() {
         viewport={{ once: true }}
         className="flex flex-row overflow-x-scroll overflow-y-hidden snap-x snap-mandatory w-full space-x-10 scrollbar scrollbar-track-black/40 scrollbar-thumb-black/60 mt-[26px] lg:mt-[14px]"
       >
-        <article className="bg-white/20 text-center h-[625px] flex-shrink-0 rounded-[10px] p-4 space-y-4 mx-auto w-full lg:w-2/3 xl:w-1/2 snap-center overflow-y-scroll scrollbar scrollbar-track-slate-500 scrollbar-thumb-slate-800 opacity-80 hover:opacity-100">
+        <article className="bg-white/20 text-center h-[625px] flex-shrink-0 rounded-[10px] p-4 space-y-4 mx-auto w-full lg:w-2/3 xl:w-1/2 snap-center overflow-y-scroll scrollbar-thin scrollbar-track-slate-500 scrollbar-thumb-slate-800 opacity-80 hover:opacity-100">
           <img
             src="PA.png"
             alt="Planet Argon Logo"
