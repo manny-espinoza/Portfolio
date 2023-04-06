@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="h-screen mx-auto p-8 text-center" id="experience">
       <motion.h1
-        variants={fadeIn("down", 0.8)}
+        variants={fadeIn("down", 0.5)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true }}
@@ -15,7 +15,7 @@ export default function About() {
         Experience
       </motion.h1>
       <motion.div
-        variants={fadeIn("up", 1.0)}
+        variants={fadeIn("up", 0.75)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true }}

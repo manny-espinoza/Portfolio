@@ -2,10 +2,18 @@ import React from "react";
 import { BiHomeAlt, BiUser } from "react-icons/bi";
 import { BsClipboardData, BsBriefcase, BsTelephone } from "react-icons/bs";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
 
 export default function Nav() {
   return (
-    <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
+    <motion.nav
+      variants={fadeIn("up", 0.2)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: true }}
+      className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50"
+    >
       <div className="container mx-auto">
         <div className="bg-black/20 h-[96px] backdrop-blur-2xl rounded-full min-w-[360px] max-w-[460px] mx-auto px-5 flex items-center justify-between text-white/50 text-2xl">
           <Link
@@ -55,6 +63,6 @@ export default function Nav() {
           </Link>
         </div>
       </div>
-    </nav>
+    </motion.nav>
   );
 }

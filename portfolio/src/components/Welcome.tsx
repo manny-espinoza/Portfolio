@@ -76,7 +76,7 @@ export default function About() {
             <a
               href="https://docs.google.com/document/d/1zvDdNeG5s2LpjWiq9mCnsOuhVAMO_rMt/edit?usp=sharing&ouid=108805970889923187124&rtpof=true&sd=true"
               target="_blank"
-              className="bg-blue-950 text-white px-4 py-1 rounded-full xl:text-[26px] opacity-70 hover:opacity-90"
+              className="btn px-4 py-1 rounded-full xl:text-[26px]"
             >
               Resume
             </a>
@@ -84,14 +84,14 @@ export default function About() {
           <a
             href="https://github.com/manny-espinoza"
             target="_blank"
-            className="text-[29px] xl:text-[45px] opacity-70 hover:opacity-90"
+            className="text-[29px] xl:text-[45px] opacity-80 hover:opacity-100"
           >
             <FaGithub />
           </a>
           <a
             href="https://www.linkedin.com/in/manny-espinoza-dev/"
             target="_blank"
-            className="text-[29px] xl:text-[45px] opacity-70 hover:opacity-90"
+            className="text-[29px] xl:text-[45px] opacity-80 hover:opacity-100"
           >
             <FaLinkedin />
           </a>
