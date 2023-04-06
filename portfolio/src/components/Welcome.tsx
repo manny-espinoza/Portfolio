@@ -72,15 +72,13 @@ export default function About() {
           className="flex flex-row items-center justify-center lg:justify-start space-x-16"
         >
           {/*Button container*/}
-          <button>
-            <a
-              href="https://docs.google.com/document/d/1zvDdNeG5s2LpjWiq9mCnsOuhVAMO_rMt/edit?usp=sharing&ouid=108805970889923187124&rtpof=true&sd=true"
-              target="_blank"
-              className="btn px-4 py-1 rounded-full xl:text-[26px]"
-            >
-              Resume
-            </a>
-          </button>
+          <a
+            href="https://docs.google.com/document/d/1zvDdNeG5s2LpjWiq9mCnsOuhVAMO_rMt/edit?usp=sharing&ouid=108805970889923187124&rtpof=true&sd=true"
+            target="_blank"
+            className="btn px-4 py-1 rounded-full xl:text-[26px]"
+          >
+            Resume
+          </a>
           <a
             href="https://github.com/manny-espinoza"
             target="_blank"
