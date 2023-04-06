@@ -5,7 +5,7 @@ import { fadeIn } from "../variants";
 export default function About() {
   return (
     <div
-      className="h-screen mx-auto text-center p-8 space-y-12 md:space-y-16"
+      className="h-screen mx-auto p-8 text-center space-y-12 md:space-y-16"
       id="about"
     >
       <motion.h1
