@@ -20,7 +20,7 @@ export default function About() {
 
   return (
     <div
-      className="h-screen mx-auto p-8 space-y-4 text-center lg:text-left flex flex-col lg:flex-row lg:justify-evenly"
+      className="h-screen mx-auto p-8 space-y-4 text-center lg:text-left flex flex-col lg:flex-row lg:justify-around xl:justify-evenly bg-black/20"
       id="contact"
     >
       <div className="space-y-4 lg:space-y-16">
@@ -90,32 +90,32 @@ export default function About() {
         whileInView={"show"}
         viewport={{ once: true }}
         onSubmit={handleSubmit(onSubmit)}
-        className="flex flex-col text-black pt-4 lg:pt-[35px]"
+        className="flex flex-col text-black pt-4 lg:pt-[85px]"
       >
         <div>
           <input
             {...register("name")}
             type="text"
             placeholder="Name"
-            className="text-left text-[14px] lg:text-[16px] p-2 w-[200px] h-[40px] lg:w-[225px] lg:h-[50px] border-l-2 border-t-2 border-b-[1px] border-black rounded-tl-lg"
+            className="text-left text-[14px] lg:text-[16px] p-2 w-[200px] h-[40px] lg:w-[225px] lg:h-[50px] border-l-2 border-t-2 border-b-[1px] border-black rounded-tl-lg hover:border-sky-600"
           />
           <input
             {...register("email")}
             type="email"
             placeholder="Email"
-            className="text-left text-[14px] lg:text-[16px] p-2 w-[200px] h-[40px] lg:w-[225px] lg:h-[50px] border-t-2 border-r-2 border-b-[1px] border-black rounded-tr-lg"
+            className="text-left text-[14px] lg:text-[16px] p-2 w-[200px] h-[40px] lg:w-[225px] lg:h-[50px] border-t-2 border-r-2 border-b-[1px] border-black rounded-tr-lg hover:border-sky-600"
           />
         </div>
         <input
           {...register("subject")}
           type="text"
           placeholder="Subject"
-          className="w-[400px] h-[40px] lg:w-[450px] lg:h-[50px] text-left text-[14px] lg:text-[16px] p-2 mx-auto border-l-2 border-r-2 border-b-[1px] border-black"
+          className="w-[400px] h-[40px] lg:w-[450px] lg:h-[50px] text-left text-[14px] lg:text-[16px] p-2 mx-auto border-l-2 border-r-2 border-b-[1px] border-black hover:border-sky-600"
         />
         <textarea
           {...register("message")}
           placeholder="Message"
-          className="w-[400px] h-[300px] lg:w-[450px] lg:h-[450px] text-left text-[14px] lg:text-[16px] p-2 mx-auto resize-none border-l-2 border-r-2 border-b-2 border-black rounded-b-lg"
+          className="w-[400px] h-[300px] lg:w-[450px] lg:h-[400px] text-left text-[14px] lg:text-[16px] p-2 mx-auto resize-none border-l-2 border-r-2 border-b-2 border-black rounded-b-lg hover:border-sky-600"
         ></textarea>
         <button
           type="submit"

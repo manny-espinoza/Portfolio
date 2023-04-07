@@ -115,7 +115,7 @@ export default function About() {
           </div>
         </div>
       </motion.div>
-      <div className="w-full absolute top-[23%] bg-slate-500/20 left-0 h-[500px] -skew-y-12 -z-10" />
+      <div className="w-full absolute top-[27%] bg-slate-500/20 left-0 h-[400px] -skew-y-12 -z-10" />
     </div>
   );
 }
