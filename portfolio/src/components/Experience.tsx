@@ -21,7 +21,7 @@ export default function About() {
         viewport={{ once: true }}
         className="flex flex-row overflow-x-scroll overflow-y-hidden snap-x snap-mandatory w-full space-x-10 scrollbar scrollbar-track-black/40 scrollbar-thumb-black/60 mt-[26px] lg:mt-[14px]"
       >
-        <article className="bg-white/20 text-center h-[625px] flex-shrink-0 rounded-[10px] p-4 space-y-4 mx-auto w-full lg:w-2/3 xl:w-1/2 snap-center overflow-y-scroll scrollbar-thin scrollbar-track-slate-500 scrollbar-thumb-slate-800 opacity-80 hover:opacity-100">
+        <article className="bg-white/20 text-center h-[625px] flex-shrink-0 rounded-[10px] p-4 space-y-4 mx-auto w-full lg:w-[60%] xl:w-[40%] snap-center overflow-y-scroll scrollbar-thin scrollbar-track-slate-500 scrollbar-thumb-slate-800 opacity-80 hover:opacity-100">
           <img
             src="PA.png"
             alt="Planet Argon Logo"
@@ -62,7 +62,7 @@ export default function About() {
             </li>
           </ul>
         </article>
-        <article className="bg-white/20 text-center h-[625px] flex-shrink-0 rounded-[10px] p-4 space-y-4 mx-auto w-full lg:w-2/3 xl:w-1/2 snap-center opacity-80 hover:opacity-100">
+        <article className="bg-white/20 text-center h-[625px] flex-shrink-0 rounded-[10px] p-4 space-y-4 mx-auto w-full lg:w-[60%] xl:w-[40%] snap-center opacity-80 hover:opacity-100">
           <img
             src="LA.png"
             alt="LEARN Academy Logo"
@@ -90,7 +90,7 @@ export default function About() {
             </li>
           </ul>
         </article>
-        <article className="bg-white/20 text-center h-[625px] flex-shrink-0 rounded-[10px] p-4 space-y-4 mx-auto w-full lg:w-2/3 xl:w-1/2 snap-center opacity-80 hover:opacity-100">
+        <article className="bg-white/20 text-center h-[625px] flex-shrink-0 rounded-[10px] p-4 space-y-4 mx-auto w-full lg:w-[60%] xl:w-[40%] snap-center opacity-80 hover:opacity-100">
           <img
             src="Kogi.jpg"
             alt="Kogi BBQ Logo"
@@ -109,7 +109,7 @@ export default function About() {
             </li>
           </ul>
         </article>
-        <article className="bg-white/20 text-center h-[625px] flex-shrink-0 rounded-[10px] p-4 space-y-4 mx-auto w-full lg:w-2/3 xl:w-1/2 snap-center opacity-80 hover:opacity-100">
+        <article className="bg-white/20 text-center h-[625px] flex-shrink-0 rounded-[10px] p-4 space-y-4 mx-auto w-full lg:w-[60%] xl:w-[40%] snap-center opacity-80 hover:opacity-100">
           <img
             src="Gen.png"
             alt="Gen Korean BBQ Logo"
@@ -129,7 +129,7 @@ export default function About() {
             </li>
           </ul>
         </article>
-        <article className="bg-white/20 text-center h-[625px] flex-shrink-0 rounded-[10px] p-4 space-y-4 mx-auto w-full lg:w-2/3 xl:w-1/2 snap-center opacity-80 hover:opacity-100">
+        <article className="bg-white/20 text-center h-[625px] flex-shrink-0 rounded-[10px] p-4 space-y-4 mx-auto w-full lg:w-[60%] xl:w-[40%] snap-center opacity-80 hover:opacity-100">
           <img
             src="KFT.png"
             alt="Kung Fu Tea Logo"

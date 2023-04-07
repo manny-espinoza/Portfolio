@@ -17,7 +17,7 @@ export default function About() {
       >
         About Me
       </motion.h1>
-      <div className="flex flex-col items-center space-y-8 md:space-y-12 lg:flex-row lg:justify-around xl:justify-evenly">
+      <div className="flex flex-col items-center space-y-8 md:space-y-12 lg:flex-row lg:justify-around xl:justify-evenly lg:content-start">
         <motion.img
           variants={fadeIn("right", 0.5)}
           initial="hidden"
@@ -25,7 +25,7 @@ export default function About() {
           viewport={{ once: true }}
           src="/Headshot.jpg"
           alt="Profile Picture"
-          className="rounded-full mb-4 lg:rounded-[50px] w-[300px] h-[300px] lg:w-[350px] lg:h-[350px] xl:w-[400px] xl:h-[400px] lg:mt-[80px] xl:mt-[46px]"
+          className="rounded-full mb-4 lg:rounded-[50px] lg:mb-0 w-[300px] h-[300px] lg:w-[350px] lg:h-[350px] xl:w-[400px] xl:h-[400px] lg:mt-[80px] xl:mt-[46px]"
         />
         <motion.p
           variants={fadeIn("left", 0.5)}
