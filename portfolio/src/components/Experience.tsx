@@ -138,7 +138,7 @@ export default function About() {
           <h3 className="text-3xl font-light">Shift Team Lead / Barista</h3>
           <h4 className="text-2xl font-semibold">Kung Fu Tea</h4>
           <p className="text-lg my-1 border-b pb-4">
-            January 2020 - October 2021 • 22 mos
+            January 2020 - October 2021 • 1 yr 10 mos
           </p>
           <ul className="list-disc text-justify w-5/6 text-[14px] md:text-[18px] lg:text-[20px] mx-auto space-y-1">
             <li>
