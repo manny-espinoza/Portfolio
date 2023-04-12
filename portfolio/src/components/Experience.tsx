@@ -61,7 +61,7 @@ export default function About() {
               <a
                 href="https://blog.planetargon.com/blog/entries/just-the-beginning-how-my-internship-is-launching-my-new-tech-career"
                 target="_blank"
-                className="underline cursor-pointer"
+                className="underline cursor-pointer text-blue-500"
               >
                 blog post
               </a>{" "}
