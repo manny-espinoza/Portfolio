@@ -37,11 +37,6 @@ export default function About() {
           </p>
           <div className="space-x-6">
             <button className="btn w-[150px] py-1 rounded-full">
-              <a href="https://flavian-fairway.onrender.com/" target="_blank">
-                Check it out!
-              </a>
-            </button>
-            <button className="btn w-[150px] py-1 rounded-full">
               <a
                 href="https://github.com/Under-Par-Gladiators/Flavian-Fairway"
                 target="_blank"
@@ -66,14 +61,6 @@ export default function About() {
             time and I had a lot of fun building it!
           </p>
           <div className="space-x-6">
-            <button className="btn w-[150px] py-1 rounded-full">
-              <a
-                href="https://github.com/learn-academy-2022-golf/cat-tinder-frontend-siamese-me-gg"
-                target="_blank"
-              >
-                Check it out!
-              </a>
-            </button>
             <button className="btn w-[150px] py-1 rounded-full">
               <a
                 href="https://github.com/learn-academy-2022-golf/cat-tinder-frontend-siamese-me-gg"
