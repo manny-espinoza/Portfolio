@@ -57,8 +57,15 @@ export default function About() {
               practices.
             </li>
             <li>
-              Wrote a published blog post summarizing the intern experience with
-              the company.
+              Wrote a published{" "}
+              <a
+                href="https://blog.planetargon.com/blog/entries/just-the-beginning-how-my-internship-is-launching-my-new-tech-career"
+                target="_blank"
+                className="underline cursor-pointer"
+              >
+                blog post
+              </a>{" "}
+              summarizing the intern experience with the company.
             </li>
           </ul>
         </article>
