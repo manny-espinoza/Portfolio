@@ -34,30 +34,22 @@ export default function About() {
           </p>
           <ul className="list-disc text-justify w-5/6 text-[14px] md:text-[18px] lg:text-[20px] mx-auto space-y-1">
             <li>
-              Helped client companies maintain their existing Ruby on Rails
-              applications by programming clean user interactions and
-              experiences, improving SEO to boost client sales and web traffic,
-              strengthening security and performance based on client requests,
-              and updated bugs/outdated code.
+              Improved existing Ruby on Rails applications for client companies
+              by enhancing user interactions, SEO, security and performance, and
+              fixing bugs.
             </li>
             <li>
-              Attended team meetings to discuss how communications and workflow
-              should be refined as well as reaching a consensus on commonly used
-              technological definitions to minimize perplexity.
+              Collaborated with team members to refine communication and
+              workflow procedures, establish standard technological definitions,
+              and optimize the onboarding process for future employees.
             </li>
             <li>
-              Provided practical feedback on the onboarding process so as to
-              revamp company documentation and aid in preparation of future
-              employees.
+              Setup coding environments for clients' websites, including
+              troubleshooting terminal errors, installing dependencies, and
+              utilizing GitHub best practices.
             </li>
             <li>
-              Set up the proper coding environments to locally work on client
-              websites, which involved diagnosing terminal errors, installing
-              necessary dependencies and packages, and implementing clean GitHub
-              practices.
-            </li>
-            <li>
-              Wrote a published{" "}
+              Authored a published{" "}
               <a
                 href="https://blog.planetargon.com/blog/entries/just-the-beginning-how-my-internship-is-launching-my-new-tech-career"
                 target="_blank"
@@ -65,7 +57,8 @@ export default function About() {
               >
                 blog post
               </a>{" "}
-              summarizing the intern experience with the company.
+              highlighting my experience as a Software Developer Intern at
+              Planet Argon.
             </li>
           </ul>
         </article>
@@ -82,18 +75,19 @@ export default function About() {
           </p>
           <ul className="list-disc text-justify w-5/6 text-[14px] md:text-[18px] lg:text-[20px] mx-auto space-y-1">
             <li>
-              Completed 480+ hours of direct, practical coding experience in a
-              full-stack web development bootcamp.
+              Gained over 480 hours of hands-on coding experience in a
+              full-stack web development bootcamp, excelling in React and Ruby
+              on Rails application building.
             </li>
             <li>
-              Achieved proficiency in building React and Ruby on Rails
-              applications while constructing code in pair programming and mob
-              programming to promote clear communication.
+              Collaborated effectively with team members via pair programming
+              and mob programming to ensure clear communication and high-quality
+              code.
             </li>
             <li>
-              Optimized code bases by utilizing test-driven development to
-              efficiently produce applications and properly diagnose errors in
-              the program.
+              Utilized test-driven development techniques to optimize code
+              bases, resulting in efficient application development and
+              effective error diagnosis.
             </li>
           </ul>
         </article>
