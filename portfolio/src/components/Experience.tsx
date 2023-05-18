@@ -116,7 +116,7 @@ export default function About() {
             alt="Gen Korean BBQ Logo"
             className="w-[90px] h-[90px] mx-auto bg-white rounded-2xl"
           />
-          <h3 className="text-3xl font-light">Dining Room Attendant</h3>
+          <h3 className="text-3xl font-light">Dining Room Busser</h3>
           <h4 className="text-2xl font-semibold">Gen Korean BBQ</h4>
           <p className="text-lg my-1 border-b pb-4">
             October 2021 - March 2022 • 5 mos
